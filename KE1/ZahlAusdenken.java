@@ -1,4 +1,4 @@
-package KE2;
+package KE1;
 
 class ZahlAusdenken {
 
