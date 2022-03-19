@@ -3,7 +3,7 @@ import KE4.Container.Comparable;
 
 public class MaximumContainer<T extends Comparable<T>> {
 
-  T elem;
+  private T elem;
 
   public T get(){
     return elem;
