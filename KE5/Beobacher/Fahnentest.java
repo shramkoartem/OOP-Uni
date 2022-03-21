@@ -26,7 +26,8 @@ public class Fahnentest {
     };
     meinFahnenmast.addFahnenbeobachter(michael);
     meinFahnenmast.addFahnenbeobachter(mast -> System.out.println(
-      "Sabine vermeldet fuer den Fahnenmast: " + mast.getFahnenposition()));
+      "Sabine vermeldet fuer den Fahnenmast: " + mast.getFahnenposition()
+    ));
 
 
     bedienung1.aendereBeflaggung(Fahnenposition.HALBMAST);
